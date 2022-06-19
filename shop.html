@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-            <img src="/borodinsky/img/shop/other-logo.png" alt="Логотип барбершопа Бородинский">
+            <a href="#"><img src="/borodinsky/img/shop/other-logo.png" alt="Логотип барбершопа Бородинский"></a>
             <ul>
                 <li><a href="#">Информация</a></li>
                 <li><a href="#">Новости</a></li>
@@ -24,12 +24,78 @@
     <main>
         <h1>Средства для ухода</h1>
         <ul>
-            <li><p>Главная</p></li>
-            <li><p>Магазин</p></li>
-            <li><p>Средства для ухода</p></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Средства для ухода</a></li>
         </ul>
         <aside>
-            <!--Форма чекбокса и радио кнопки и еще ссылка-->
+            <form action="#">
+                <fieldset>
+                    <legend>Производители:</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="checkbox" checked>
+                                Baxter of California
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Mr Natty">
+                                Mr Natty
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Suavecito" checked>
+                                Suavecito
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Malin+Goetz">
+                                Malin+Goetz
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="Murray’s">
+                                Murray’s
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="American Crew" checked>
+                                American Crew
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Группы товаров:</legend>
+                    <ul>
+                        <li>
+                            <label>
+                                <input type="radio" name="product-group">
+                                Бритвенные<br>
+                                принадлежности
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="product-group" checked>
+                                Средства для ухода
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="radio" name="product-group">
+                                Аксессуары
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
         </aside>
         <section>
             <h2>Карточки товаров</h2>
@@ -92,24 +158,16 @@
         </section>
         <ol>
             <li>
-                <div>
-                    <a href="#">1</a>
-                </div>
+                <a href="#">1</a>
             </li>
             <li>
-                <div>
-                    <a href="#">2</a>
-                </div>
+                <a href="#">2</a>
             </li>
             <li>
-                <div>
-                    <a href="#">3</a>
-                </div>
+                <a href="#">3</a>
             </li>
             <li>
-                <div>
-                    <a href="#">4</a>
-                </div>
+                <a href="#">4</a>
             </li>
         </ol>
     </main>
